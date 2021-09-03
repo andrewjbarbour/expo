@@ -4,8 +4,8 @@ module.exports = {
   dependency: {
     platforms: {
       ios: {
-        podspecPath: path.join(__dirname, 'ios/ExpoModulesCore.podspec'),
-        project: 'ios/ExpoModulesCore.xcodeproj',
+        podspecPath: path.join(__dirname, 'ios/Expo.podspec'),
+        project: 'ios/Expo.xcodeproj',
       },
       android: {
         packageImportPath: 'import expo.modules.adapters.react.ModuleRegistryAdapter;',
